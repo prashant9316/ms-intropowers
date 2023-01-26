@@ -1,0 +1,146 @@
+[
+    {
+        "productName": "UPS",
+        "productId": "1",
+        "description": "10KVA to 100KVA 3 phase input/3 phase output On-line UPS",
+        "images": ["/images/ups1-1.jpg", "/images/ups1-2.jpg", "/images/ups1-3.jpg"],
+        "technology": "PWM-IGBT Based Switching frequency 28KHz",
+        "redundancy": "Redundant capacity with optional automatic redundant switch",
+        "input": {
+            "Rated Voltage": "400±15 % VAC three-phase",
+            "Phase": "Three Phase, Plus PE",
+            "Frequency": "50HZ ± 10%", 
+            "Power Factor": ">0.92",
+            "Current Distortion": "<5%",
+            "Maximum Input Current": "27A",
+            "Input Breaker Capacity": "50A"
+        },
+        "Batteries": {
+            "Type": "Maintenance-free lead acid VRLA/Gel/NiCd/Tubular",
+            "DC Bus Voltage": "324 to 384V",
+            "Voltage": "Variable acc. to temperature(-0.5V/°C)",
+            "Ripple": "<1%",
+            "Extended Run Option": "Internal Maintenance Bypass & Parallel Capability"
+        },
+        "UPS Output": {
+            "Number of phases": "Three Phases",
+            "Nominal Output Voltage": "400V three-phase",
+            "Regulation of the output voltage": "230±1%",
+            "Crest Factor(peak/rms)": "3:1",
+            "Power factor": "0.8",
+            "Waveform": "sine wave",
+            "Static stability": "1%",
+            "Dynamic Stability": "5% in 5ms",
+            "Frequency": "50/60Hz configurable",
+            "Output Voltage Distortion": "Less than 3%",
+            "Overload": "110% 125% 150%200% of the rated current for 5/10min/1min/30sec"
+        },
+        "Environmental": {
+            "Remote Singaling": "Volt free contacts",
+            "Remote Controls": "EPO and Bypass",
+            "Communication": "RS232+Remote Contacts",
+            "Operating Temperature": "0°C - 40°C",
+            "Relative Humidity": "<95% non condensing",
+            "Noise": "60dB at 1m",
+            "Cooling": "Natural/Forced air cooling",
+            "Protection Rating": "IP20",
+            "Efficiency": ">92%",
+            "Indications/Alarms": "LCD Screen with indications and Alarms(Input Mains ON, System Overload, Battery Low, Mains Fail, Inverter Fault, Inverter Trip, Battery Trip, Load On Battery, Load on Bypass",
+            "Compliance": "Safety EN 62040-1EMC EN 62040-2Directive 73/23-93/68-89/336 EEC EN 62040-3"
+        }
+    },
+    {
+        "productName": "UPS",
+        "productId": "2",
+        "description": "10KVA to 30KVA 3 phase input/single phase output On-line UPS",
+        "images": ["/images/ups2-1.jpg", "/images/ups2-2.jpg", "/images/ups2-3.jpg"],
+        "technology": "PWM-IGBT Based Switching frequency 28KHz",
+        "redundancy": "Redundant capacity with optional automatic redundant switch",
+        "input": {
+            "Rated Voltage": "400±15 % VAC three-phase",
+            "Phase": "Three Phase, Plus PE",
+            "Frequency": "50HZ ± 10%", 
+            "Power Factor": ">0.92",
+            "Current Distortion": "<5%",
+            "Maximum Input Current": "27A",
+            "Input Breaker Capacity": "50A"
+        },
+        "Batteries": {
+            "Type": "Maintenance-free lead acid VRLA/Gel/NiCd/Tubular",
+            "DC Bus Voltage": "324 to 384V",
+            "Voltage": "Variable acc. to temperature(-0.5V/°C)",
+            "Ripple": "<1%"
+        },
+        "UPS Output": {
+            "Number of phases": "Single Phase",
+            "Nominal Output Voltage": "230V single-phase",
+            "Regulation of the output voltage": "230±1%",
+            "Crest Factor(peak/rms)": "3:1",
+            "Power factor": "0.8",
+            "Waveform": "sine wave",
+            "Static stability": "1%",
+            "Dynamic Stability": "5% in 5ms",
+            "Frequency": "50/60Hz configurable",
+            "Output Voltage Distortion": "Less than 3%",
+            "Overload": "110% 125% 150%200% of the rated current for 5/10min/1min/30sec"
+        },
+        "Environmental": {
+            "weight(in Kg)": "290",
+            "Dimensions(hwd) (mm)": "1400*555*720",
+            "Remote Singaling": "Volt free contacts",
+            "Remote Controls": "EPO and Bypass",
+            "Communication": "RS232+Remote Contacts",
+            "Operating Temperature": "0°C - 40°C",
+            "Relative Humidity": "<95% non condensing",
+            "Noise": "60dB at 1m",
+            "Cooling": "Natural/Forced air cooling",
+            "Protection Rating": "IP20",
+            "Efficiency": ">92%",
+            "Indications/Alarms": "LCD Screen with indications and Alarms(Input Mains ON, System Overload, Battery Low, Mains Fail, Inverter Fault, Inverter Trip, Battery Trip, Load On Battery, Load on Bypass",
+            "Compliance": "Safety EN 62040-1EMC EN 62040-2Directive 73/23-93/68-89/336 EEC EN 62040-3"
+        }
+    },
+    {
+        "productName": "UPS",
+        "productId": "3",
+        "description": "1KVA, 2KVA, 3KVa, 5KVa, 6KVA and 7.5KVA On-line UPS",
+        "images": ["/images/ups3-1.jpg", "/images/ups3-2.jpg", "/images/ups3-3.jpg"],
+        "technology": "PWM-IGBT Based Switching frequency 28KHz",
+        "redundancy": "Redundant capacity with optional automatic redundant switch",
+        "input": {
+            "Input System": "1-phase, plus PE",
+            "Rated Voltage": "220VAC / 230VAC / 240VAC",
+            "Voltage Range": "a. 160-280 VAC Full Load, b. 110VAC half load",
+            "Frequency": "50/60 HZ", 
+            "Power Factor": "0.97(conditions: rated voltage, full pure resistive load, fully charged battery)"
+        },
+        "Battery": {
+            "Manufacturer/mode": "CSB/GP1272F2 or Panasonic/Exide/Quanta/Amar Raja equivalent etc.",
+            "Charging Duration": "80% of battery capacity in 4 hrs (stadard type)",
+            "Noise(within 1m)": "<45dB"
+        },
+        "Output": {
+            "Output Sytem": "1-phase, plus PE", 
+            "Power Factor": "0.8",
+            "Voltage": "220VAC / 230VAC / 240VAC ± 1% ",
+            "Line Regulation": "2% (0~100% linear load)",
+            "Voltage harmonic distortion": "3%(0~100% linear load), 6%(0~100% non-linear load)",
+            "Dynamic Variation": "<5% in 20ms",
+            "Frequency": "50/60Hz 0.2Hz",
+            "Frequency Range": "46-54Hz/56-64Hz",
+            "Inverter overload Capability(Normal Mode)": "108%~150% 30s > 150% 300ms",
+            "Inverter overload capability(Battery Mode)": "108%~150% 30s > 150% 300ms",
+            "Bypass overload capability": "200% for <60mins",
+            "Crest Factor": "3:1",
+            "Bypass operating voltage": "80V ~ 264V",
+            "Transfer Time": "Normal <_> Battery :0ms",
+            "DC component": "200mV",
+            "Battery Mode": "83% (rated battery voltage, full linear load)",
+            "Efficiency": "Normal mode 88% (Rated mains voltage, full linear load, battery fully charged)",
+            "Inverter Efficiency": ">95%",
+            "External Battery voltage": "96V to 192V DC",
+            "Charging Current": "1 Amp to 15 Amps (trim-pot setting)"
+        },
+        "Indications and Alarms": "LCD Screen with indications and Alarms (Input Mains ON, System Overload, Battery Low, Mains Fail, Inverter Fault, Inverter Trip, Battery Trip, Load on Battery, Load on Bypass)"
+    }
+]

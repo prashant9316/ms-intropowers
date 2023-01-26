@@ -1,0 +1,363 @@
+<%- include('./partials/header.ejs') %>
+
+    <section class="hero _bg-blue">
+
+
+
+        <div class="container">
+            <h1>
+                A retained executive search firm dedicated to identifying exceptional leaders. </h1>
+        </div>
+
+        <div class="bg-img">
+            <picture>
+                <!-- content-modules-image -->
+
+                <!-- content-modules-image -->
+
+                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                    data-lazy-srcset="https://chartwellpartners.com/wp-content/uploads/2021/06/062_ChartwellHeadshots_05-04-21_Retouched_Resized-2691x1422.jpg 2x"
+                    alt="" title="062_ChartwellHeadshots_05-04-21_Retouched_Resized"
+                    data-lazy-src="/wp-content/uploads/2021/06/062_ChartwellHeadshots_05-04-21_Retouched_Resized-1600x771.jpg"><noscript><img
+                        src="/wp-content/uploads/2021/06/062_ChartwellHeadshots_05-04-21_Retouched_Resized-1600x771.jpg"
+                        srcset="https://chartwellpartners.com/wp-content/uploads/2021/06/062_ChartwellHeadshots_05-04-21_Retouched_Resized-2691x1422.jpg 2x"
+                        alt="" title="062_ChartwellHeadshots_05-04-21_Retouched_Resized"></noscript>
+            </picture>
+            <div class="bg-img-overlay"></div>
+        </div>
+    </section>
+
+    <!-- text_bar_slider -->
+    <section class="bar-slider">
+        <div class="container">
+
+
+
+            <h4>
+                Specializing in: </h4>
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+
+
+                    <div class="swiper-slide">
+                        IGBT Technology </div>
+
+
+
+
+                    <div class="swiper-slide">
+                        Isolation Transformers </div>
+
+
+
+
+                    <div class="swiper-slide">
+                        True on line UPS systems </div>
+
+
+
+
+                    <div class="swiper-slide">
+                        Supply Servo Stabilizer </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- icon_grid -->
+    <!-- <section class="info-section _bg-gray mcon-grid">
+        <div class="container">
+            <div class="info-section_intro">
+                <div class="text-area">
+
+
+
+                    <h2 data-aos="fade-up">
+                        Industry Expertise </h2>
+
+
+
+
+                    <p class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                        With extensive training as senior partners of the largest global search firms, we apply our
+                        in-depth industry knowledge to exceed our clients' expectations.
+                    </p>
+
+                </div>
+
+
+
+
+                <a class="btn " href="/our-firm" target="_self" data-aos="fade-up" data-aos-delay="400">
+                    MEET THE FIRM </a>
+            </div>
+            <div class="info-items">
+                <div class="col" data-aos="fade-up" data-aos-delay="200">
+                    <div class="item">
+                        
+                        <div class="icon">
+                            <img width="32" height="32"
+                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3C/svg%3E"
+                                alt="financial icon" title="ico-financial"
+                                data-lazy-src="wp-content/uploads/2021/05/ico-financial.svg"><noscript><img width="32"
+                                    height="32" src="wp-content/uploads/2021/05/ico-financial.svg" alt="financial icon"
+                                    title="ico-financial"></noscript>
+                        </div>
+
+
+
+                        <h3>
+                            Financial Services </h3>
+
+
+
+
+                        <ul>
+                            <li>Banking</li>
+                            <li>Wealth Management</li>
+                            <li>Real Estate</li>
+                        </ul>
+
+
+
+
+
+                        <a class="btn-link " href="/" target="_self">
+                            See More </a>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-delay="400">
+                    <div class="item">
+                        
+                        <div class="icon">
+                            <img width="32" height="32"
+                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3C/svg%3E"
+                                alt="healthcare icon" title="ico-healthcare"
+                                data-lazy-src="wp-content/uploads/2021/05/ico-healthcare.svg"><noscript><img width="32"
+                                    height="32" src="wp-content/uploads/2021/05/ico-healthcare.svg"
+                                    alt="healthcare icon" title="ico-healthcare"></noscript>
+                        </div>
+
+
+
+                        <h3>
+                            Healthcare </h3>
+
+
+
+
+                        <ul>
+                            <li>Biopharmaceuticals</li>
+                            <li>Healthcare Services</li>
+                            <li>Healthcare Technology</li>
+                        </ul>
+
+
+
+
+
+                        <a class="btn-link " href="/" target="_self">
+                            See More </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     -->
+
+    <!-- team  By Relationship-->
+
+
+    <section class="partners" style="">
+        <div class="container">
+            <div class="items">
+
+
+
+                <h2>
+                    Our Products </h2>
+
+                <div class="row">
+                    <% for(var i = 0; i < data.length; i++) { %>
+                    <div class="col">
+                        <div class="item">
+
+                            <a class="item-image" href="/products#<%=data[i]['productId']%>" data-aos="fade-down"
+                                data-aos-delay="0">
+                                <img width="1200" height="1625" style="max-height: 400px; min-height: 350px;"
+                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%201625'%3E%3C/svg%3E"
+                                    data-lazy-srcset="<%= data[i].images[0] %>"
+                                    alt="Stuart Bush" title="CWP-Photos-StuartBush-Opt"
+                                    data-lazy-src="wp-content/uploads/2021/05/CWP-Photos-StuartBush-Opt.jpg"><noscript><img
+                                        width="1200" height="1625"
+                                        src="<%= data[i].images[0] %>"
+                                        srcset="<%= data[i].images[0] %>"
+                                        alt="<%= data[i].productName%>" title="<%= data[i].productName%>"></noscript>
+                            </a>
+
+                            <div class="item-desc" data-aos="fade-up" data-aos-delay="0">
+
+
+
+                                <h3>
+                                    <%= data[i].description%></h3>
+
+
+
+                                <h4>
+                                    <%= data[i].productName%> </h4>
+
+
+                                <a href="/products/#<%=data[i]['productId']%>" class="btn-link _secondary">
+                                    View Product
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <% } %>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- statistics -->
+    <section class="why-section _bg-gray">
+        <div class="container">
+
+
+
+            <h2 data-aos="fade-up">
+                Why Companies <br class="m-visible">Trust Us </h2>
+
+            <div class="row">
+                <div class="col col-2">
+
+
+
+                    <p data-aos="fade-up" data-aos-delay="200">
+                        We are an ISO 9001/14001 company and committed for delivery of high degree of quality product and excellent after sales service for continued and sustained customer relationship. We have a long and growing list of satisfied customers such as State Bank of India, Bank of Baroda, Indian Bank, Bureau of Indian Standards, Solid State Physics Laboratory, Punjab and Sind Bank, PDCSR Meerut, Indian Council ofo Agricultural Research, Indian Institute of Fashion Technology, NIC etc. in the above fields.
+                            
+                        
+                    </p>
+
+                    <div class="boxes">
+                        <div class="box" data-aos="fade-up" data-aos-delay="0">
+
+
+
+                            <h3>
+                                Excellence </h3>
+
+
+
+
+                            <p>
+                                We are glad to inform you that we have excellent and time tested expertise and highly experienced and trained Manpower especially in the field of high frequency PWN/IGBT based three-phase UPSs of higher ratings, particularly of other make UPSs with to almost nil down time. 
+                            </p>
+
+                        </div>
+                        <div class="box" data-aos="fade-up" data-aos-delay="200">
+
+
+
+                            <h3>
+                                Compassion </h3>
+
+
+
+
+                            <p>
+                                Because of our reputation for prompt and fast service with very contracts from several-reputed customer of other make UPSs.
+                            </p>
+
+                        </div>
+                        <div class="box" data-aos="fade-up" data-aos-delay="400">
+
+
+
+                            <h3>
+                                Integrity </h3>
+
+
+
+
+                            <p>
+                                Our reputation is our livelihood. We choose to “think long” and let the golden rule
+                                govern our decisions.
+                            </p>
+
+                        </div>
+                        <div class="box" data-aos="fade-up" data-aos-delay="600">
+
+
+
+                            <h3>
+                                Candor </h3>
+
+
+
+
+                            <p>
+                                We have many prestigious customers in public sector, Government sector, Banks, Universities, IITs, Manufacturing Industries, Hotels and Hospitals. 
+                                </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-2">
+                    <div class="info-list">
+                        <div class="item" data-aos="fade-up" data-aos-delay="200">
+
+
+
+                            <strong class="value">
+                                1000+ </strong>
+
+
+
+
+                            <h3>
+                                Units sold each year </h3>
+
+                        </div>
+                        <div class="item" data-aos="fade-up" data-aos-delay="200">
+
+
+
+                            <strong class="value">
+                                95%+ </strong>
+
+
+
+
+                            <h3>
+                                Efficient products </h3>
+
+                        </div>
+                        <div class="item" data-aos="fade-up" data-aos-delay="200">
+
+
+
+                            <strong class="value">
+                                15+ </strong>
+
+
+
+
+                            <h3>
+                                Years in business </h3>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <%- include('./partials/footer.ejs') %>

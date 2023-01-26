@@ -1,0 +1,67 @@
+
+<%- include('./partials/header.ejs') %>
+
+
+<section class="hero-alt">
+    <div class="container">
+
+
+
+        <h1 class="animate-item">
+            Products & Services<br />
+        </h1>
+
+        <div class="row">
+            <div class="col col-2 _text-lg">
+
+                <h3 class="animate-item">Product Ranges:</h3>
+                <ol>
+                    <ul><p class="animate-item"> 
+                        1. True on-line IGBT UPS systems from 1KVA to 100KVA (Both single and three phase systems)
+                    </p></ul>
+                    <ul><p class="animate-item"> 
+                        2. Isolation Transformers up to 200KVA (Single and Three Phase)
+                    </p></ul>
+                    <ul><p class="animate-item"> 
+                        3. Servo Voltage stabilizer single phase up to 200KVA and three phase upto 5000KVA.
+                    </p></ul>
+                </ol>
+            </div>
+        </div>
+        <div class="hero-alt_image">
+            <div class="row">
+                <% for(var i = 0; i < data.length - 1; i++) { %>
+                <div class="col" data-aos="fade-up">
+
+                    <img width="300" height="300" style=""
+                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20532%20547'%3E%3C/svg%3E"
+                        data-lazy-srcset="<%=data[i].images[0] %>"
+                        alt="" title="Our_Firm_1"
+                        data-lazy-src="<%=data[i].images[0] %>"><noscript><img
+                            width="300" height="300" src="<%=data[i].images[0] %>"
+                            srcset="<%=data[i].images[0] %>"
+                            alt="" title="Images of ups"></noscript>
+                </div>
+                <% } %>
+                
+            </div>
+        </div>
+    </div>
+    <div class="bg-img _bg-blue">
+        
+
+        <img width="1600" height="914"
+            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201600%20914'%3E%3C/svg%3E"
+            data-lazy-srcset="https://chartwellpartners.com/wp-content/uploads/2021/05/hero-img-02@2x-3200x1828.jpg 2x"
+            alt="Office" title="hero-img-02@2x"
+            data-lazy-src="../wp-content/uploads/2021/05/hero-img-02%402x-1600x914.jpg"><noscript><img
+                width="1600" height="914" src="../wp-content/uploads/2021/05/hero-img-02%402x-1600x914.jpg"
+                srcset="https://chartwellpartners.com/wp-content/uploads/2021/05/hero-img-02@2x-3200x1828.jpg 2x"
+                alt="Office" title="hero-img-02@2x"></noscript>
+        <div class="bg-img-overlay"></div>
+    </div>
+</section>
+</div>
+
+
+<%- include('./partials/footer.ejs') %>
